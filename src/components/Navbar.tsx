@@ -1,8 +1,8 @@
 'use client';
 
-import { useState } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <nav className='bg-white h-24  '>
-      <div className='h-24  mx-auto sm:px-10'>
+      <div className='h-24  mx-auto pr-14 sm:px-10'>
         <div className='flex justify-between items-center h-24 overflow-hidden'>
           {/* Logo */}
           <div className='flex-shrink-0 '>
@@ -41,7 +41,7 @@ export default function Navbar() {
                 href='/about'
                 className='text-gray-500 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200'
               >
-                About
+                Meet the Team
               </Link>
               <Link
                 href='/features'

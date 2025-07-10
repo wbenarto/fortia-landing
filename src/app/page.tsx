@@ -7,28 +7,37 @@ export default function Home() {
   return (
     <div className='justify-center min-h-screen bg-white'>
       <Navbar />
-      <div className='px-30 py-20    w-full'>
+      <div className='2xl:px-30 2xl:py-20    w-full'>
         <GridLayout>
           <GridItem className='flex items-center justify-center !px-20'>
-            <h3 className='font-jakarta-extrabold text-3xl my-4  text-center'>
+            <h3 className='font-jakarta-extrabold text-3xl md:text-4xl my-4  text-center'>
               Track your fitness progress with our AI-powered app
             </h3>
-            <p className='font-jakarta text-gray-800 font-jakarta-semibold tracking-wider text-center my-4'>
+            <p className='font-jakarta text-gray-800 font-jakarta-semibold tracking-widest text-center my-4'>
               Sign up for our beta launch and get early access to our app.
             </p>
             <input
               type='email'
               placeholder='Enter your email'
-              className='w-full p-2 border border-gray-300 rounded-md my-10'
+              className='w-full md:w-3/4 p-2 border border-gray-300 2xl:w-1/2 rounded-md my-10'
             />
             <button
-              className={`bg-[#E3BBA1] text-white px-12 py-4 rounded-md my-4`}
+              className={`bg-[#E3BBA1] text-white px-12 py-4 rounded-md my-4 font-jakarta-bold`}
             >
               Sign up
             </button>
+            <div className='flex items-center justify-center'>
+              <Image
+                src='/images/appstore.jpeg'
+                alt='coming to app store soon'
+                className='py-8'
+                width={280}
+                height={300}
+              />
+            </div>
           </GridItem>
 
-          <GridItem className=''>
+          <GridItem className='flex items-center justify-center  md:inline-block md:ml-20 '>
             <Image
               src='/images/homess.png'
               alt='Hero Image'
@@ -77,6 +86,16 @@ export default function Home() {
           <Image
             src='/images/homess.png'
             alt='Hero Image'
+            className='py-8'
+            width={250}
+            height={300}
+          />
+        </div>
+
+        <div className='flex flex-col items-center justify-center mb-10'>
+          <Image
+            src='/images/appstore.jpeg'
+            alt='coming to app store soon'
             className='py-8'
             width={250}
             height={300}
