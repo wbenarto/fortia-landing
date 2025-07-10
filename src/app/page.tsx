@@ -1,9 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { BASE } from '@/constants/colors';
 import GridLayout, { GridItem } from '@/components/GridLayout';
+import Navbar from '@/components/Navbar';
+import Image from 'next/image';
 
 export default function Home() {
   return (
