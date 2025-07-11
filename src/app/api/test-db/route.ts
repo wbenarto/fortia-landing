@@ -18,13 +18,13 @@ export async function GET() {
         beta_users: betaUserCount,
       },
     });
-  } catch (error) {
-    console.error('Database connection error:', error);
+  } catch (_error) {
+    // console.error('Database connection error:', _error);
     return NextResponse.json(
       {
         status: 'error',
         message: 'Database connection failed',
-        error: error instanceof Error ? error.message : 'Unknown error',
+        error: _error instanceof Error ? _error.message : 'Unknown error',
       },
       { status: 500 }
     );
