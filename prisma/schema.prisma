@@ -1,0 +1,103 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/lib/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Existing tables from your database
+model User {
+  id        String   @id @default(cuid())
+  clerk_id  String   @unique @map("clerk_id")
+  email     String   @unique
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@map("users")
+}
+
+model Activity {
+  id        String   @id @default(cuid())
+  clerk_id  String   @map("clerk_id")
+  date      DateTime @db.Date
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@map("activities")
+}
+
+model Meal {
+  id        String   @id @default(cuid())
+  clerk_id  String   @map("clerk_id")
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@map("meals")
+}
+
+model Step {
+  id        String   @id @default(cuid())
+  clerk_id  String   @unique @map("clerk_id")
+  date      DateTime @db.Date
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@unique([clerk_id, date])
+  @@map("steps")
+}
+
+model Weight {
+  id        String   @id @default(cuid())
+  clerk_id  String   @map("clerk_id")
+  date      DateTime @db.Date
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@map("weights")
+}
+
+model DataConsent {
+  id        String   @id @default(cuid())
+  clerk_id  String   @unique @map("clerk_id")
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@map("data_consent")
+}
+
+model PrivacyConsent {
+  id        String   @id @default(cuid())
+  clerk_id  String   @unique @map("clerk_id")
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@map("privacy_consent")
+}
+
+model ApiLog {
+  id        String   @id @default(cuid())
+  clerk_id  String   @map("clerk_id")
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@map("api_logs")
+}
+
+// Beta users table to store email addresses
+model BetaUser {
+  id         String   @id @default(cuid())
+  email      String   @unique
+  created_at DateTime @default(now()) @map("created_at")
+  updated_at DateTime @updatedAt @map("updated_at")
+
+  @@map("beta_users")
+}
