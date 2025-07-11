@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
         created_at: betaUser.created_at,
       },
     });
-  } catch (_error) {
+  } catch {
     return NextResponse.json(
       { error: 'Failed to register for beta access' },
       { status: 500 }
@@ -74,7 +74,7 @@ export async function GET() {
       count: betaUsers.length,
       users: betaUsers,
     });
-  } catch (_error) {
+  } catch {
     return NextResponse.json(
       { error: 'Failed to fetch beta users' },
       { status: 500 }

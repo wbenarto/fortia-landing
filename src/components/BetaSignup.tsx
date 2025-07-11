@@ -52,7 +52,7 @@ export default function BetaSignup() {
           text: data.error || 'Failed to sign up. Please try again.',
         });
       }
-    } catch (_error) {
+    } catch {
       setMessage({
         type: 'error',
         text: 'Network error. Please check your connection and try again.',
