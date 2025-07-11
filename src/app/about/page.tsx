@@ -30,9 +30,9 @@ const About = () => {
             direct correlation between their actions and outcomes through clear,
             actionable insights, they gain the confidence and motivation to make
             informed decisions. Traditional approaches often rely on guesswork
-            or generic advice, leaving users frustrated when they don't see the
-            expected results. However, when feedback is personalized, timely,
-            and based on comprehensive data analysis, users can identify
+            or generic advice, leaving users frustrated when they don&apos;t see
+            the expected results. However, when feedback is personalized,
+            timely, and based on comprehensive data analysis, users can identify
             patterns, understand their unique responses to different strategies,
             and make precise adjustments to their approach.
           </p>
@@ -45,8 +45,8 @@ const About = () => {
             This level of insight enables them to optimize their routines, avoid
             common pitfalls, and celebrate meaningful milestones along their
             journey. More importantly, data-driven feedback creates a sense of
-            accountability and ownership over one's health journey, as users can
-            see exactly how their choices impact their progress. This
+            accountability and ownership over one&apos;s health journey, as
+            users can see exactly how their choices impact their progress. This
             personalized approach not only accelerates goal achievement but also
             builds sustainable habits that last beyond the initial motivation
             phase, ultimately leading to long-term success and improved overall
