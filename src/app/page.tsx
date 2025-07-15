@@ -17,55 +17,57 @@ export default function Home() {
 
             <GridItem className='flex items-center justify-center  md:inline-block md:ml-20 '>
               <Image
-                src='/images/homess.png'
+                src='/images/mockhome.png'
                 alt='Hero Image'
                 width={350}
                 height={300}
               />
             </GridItem>
           </GridLayout>
-          <div className='border-b border-1 mt-20 border-gray-400'></div>
+          <div className='border-b mx-4 2xl:mx-0 border-1 mt-20 border-gray-400'></div>
         </div>
 
-        <div className='px-30 '>
-          <h3 className='font-jakarta-extrabold text-5xl my-8 tracking-wide  text-center'>
+        <div className='px-4 2xl:px-30 '>
+          <h3 className='font-jakarta-extrabold text-2xl 2xl:text-5xl my-8 tracking-wide  text-center'>
             Welcome to Fortia
           </h3>
           <div className='flex flex-col items-center justify-center mb-10'>
             <h3 className='font-jakarta-bold text-xl my-8 tracking-wide  text-center'>
-              Track: Calories intake, weight progress, activities.
+              Track your daily macronutrients breakdown using our smart calories
+              tracker.
             </h3>
             <Image
-              src='/images/homess.png'
+              src='/images/mocknutrition.png'
               alt='Hero Image'
               className='py-8'
-              width={250}
+              width={450}
               height={300}
             />
           </div>
 
           <div className='flex flex-col items-center justify-center mb-10'>
             <h3 className='font-jakarta-bold text-xl my-8 tracking-wide  text-center'>
-              Track: Calories intake, weight progress, activities.
+              Simplify your meal tracking with our AI-powered meal analysis.
             </h3>
             <Image
-              src='/images/homess.png'
+              src='/images/mockmeal.png'
               alt='Hero Image'
               className='py-8'
-              width={250}
+              width={450}
               height={300}
             />
           </div>
 
           <div className='flex flex-col items-center justify-center mb-10'>
             <h3 className='font-jakarta-bold text-xl my-8 tracking-wide  text-center'>
-              Track: Calories intake, weight progress, activities.
+              Log your daily activities and get a detailed breakdown of your
+              calories burned.
             </h3>
             <Image
-              src='/images/homess.png'
+              src='/images/mockactivity.png'
               alt='Hero Image'
               className='py-8'
-              width={250}
+              width={450}
               height={300}
             />
           </div>
