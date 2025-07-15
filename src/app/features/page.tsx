@@ -12,7 +12,7 @@ export default function Features() {
           </h3>
 
           <div className='flex my-8 flex-col items-center justify-center'>
-            <h2 className='2xl:text-2xl text-xl font-jakarta-bold text-gray-800'>
+            <h2 className='2xl:text-2xl text-xl font-jakarta-bold text-center text-gray-800'>
               AI-Powered Meal Analysis
             </h2>
             <p className='2xl:text-lg text-sm font-jakarta-semibold text-gray-800 tracking-wider text-center my-4'>
@@ -21,7 +21,7 @@ export default function Features() {
             </p>
           </div>
           <div className='flex my-8 flex-col items-center justify-center'>
-            <h2 className='2xl:text-2xl text-xl font-jakarta-bold text-gray-800'>
+            <h2 className='2xl:text-2xl text-xl font-jakarta-bold text-center text-gray-800'>
               Daily Calorie and Macronutrient Tracking and Targets
             </h2>
             <p className='2xl:text-lg text-sm font-jakarta-semibold text-gray-800 tracking-wider text-center my-4'>
@@ -49,7 +49,7 @@ export default function Features() {
             </p>
           </div>
           <div className='flex my-8 flex-col items-center justify-center'>
-            <h2 className='2xl:text-2xl text-xl font-jakarta-bold text-gray-800'>
+            <h2 className='2xl:text-2xl text-xl font-jakarta-bold text-center text-gray-800'>
               Awakened Manifesting
             </h2>
             <p className='2xl:text-lg text-sm font-jakarta-semibold text-gray-800 tracking-wider text-center my-4'>
