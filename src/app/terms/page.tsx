@@ -20,9 +20,11 @@ export default function TermsPage() {
             </p>
 
             <p className='text-gray-700 text-sm leading-6 mb-4'>
-              Welcome to Fortia! These Terms and Conditions ("Terms") govern
-              your use of the Fortia mobile application ("App") and related
-              services ("Services") provided by Fortia ("we," "us," or "our").
+              Welcome to Fortia! These Terms and Conditions
+              (&ldquo;Terms&rdquo;) govern your use of the Fortia mobile
+              application (&ldquo;App&rdquo;) and related services
+              (&ldquo;Services&rdquo;) provided by Fortia (&ldquo;we,&rdquo;
+              &ldquo;us,&rdquo; or &ldquo;our&rdquo;).
             </p>
 
             <p className='text-gray-700 text-sm leading-6 mb-4'>
@@ -286,8 +288,8 @@ export default function TermsPage() {
                 9.1 Service Availability:
               </span>{' '}
               We strive to provide reliable Services but cannot guarantee
-              uninterrupted access. The Services are provided "as is" without
-              warranties of any kind.
+              uninterrupted access. The Services are provided &ldquo;as
+              is&rdquo; without warranties of any kind.
             </p>
             <p className='text-gray-700 text-sm leading-6 mb-2'>
               <span className='font-jakarta-semibold'>

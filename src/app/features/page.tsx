@@ -30,21 +30,21 @@ export default function Features() {
             </p>
 
             <p className='2xl:text-lg text-sm font-jakarta-semibold text-gray-800 tracking-wider text-center my-4'>
-              Fortia's advanced tracking system incorporates precise Total Daily
-              Energy Expenditure (TDEE) and Basal Metabolic Rate (BMR)
+              Fortia&apos;s advanced tracking system incorporates precise Total
+              Daily Energy Expenditure (TDEE) and Basal Metabolic Rate (BMR)
               calculations to provide users with personalized nutrition and
               fitness insights. The app calculates BMR using the Mifflin-St Jeor
               equation, which considers age, gender, height, and weight to
               determine the minimum calories needed for basic bodily functions
               at rest. From there, Fortia applies activity multipliers based on
-              the user's lifestyle and exercise patterns to determine their
+              the user&apos;s lifestyle and exercise patterns to determine their
               TDEE—the total calories burned throughout the day including
               physical activity, thermic effect of food, and non-exercise
               activity thermogenesis (NEAT). This comprehensive approach allows
               users to set accurate calorie targets for weight loss,
               maintenance, or muscle gain, while the app continuously refines
               these calculations based on actual progress data, ensuring
-              recommendations remain optimal as users' bodies and activity
+              recommendations remain optimal as users&apos; bodies and activity
               levels change over time.
             </p>
           </div>
