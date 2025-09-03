@@ -53,8 +53,7 @@ export default function SupportPage() {
       } else {
         setSubmitStatus('error');
       }
-    } catch (error) {
-      console.error('EmailJS error:', error);
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);

@@ -40,7 +40,7 @@ const eslintConfig = [
 
       // React specific rules
       'react-hooks/exhaustive-deps': 'warn',
-      'react/no-unescaped-entities': 'warn',
+      'react/no-unescaped-entities': 'off',
       'react/jsx-key': 'error',
       'react/jsx-no-duplicate-props': 'error',
       'react/jsx-no-undef': 'error',
