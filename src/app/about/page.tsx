@@ -7,7 +7,7 @@ const About = () => {
     <div className='flex flex-col min-h-screen bg-white'>
       <Navbar />
       <main className='flex-1'>
-        <div className=' px-10  xl:max-w-7xl 2xl:mx-auto 2xl:py-10 w-full 2xl:mt-10'>
+        <div className=' px-10  xl:max-w-7xl mx-auto 2xl:py-10 w-full 2xl:mt-10'>
           <h3 className='text-3xl font-jakarta-extrabold 2xl:text-5xl my-8 tracking-wide  text-center'>
             About
           </h3>

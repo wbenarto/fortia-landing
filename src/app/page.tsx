@@ -9,7 +9,7 @@ export default function Home() {
     <div className='flex flex-col min-h-screen bg-white'>
       <Navbar />
       <main className='flex-1'>
-        <div className='2xl:px-30 2xl:py-20 w-full'>
+        <div className='2xl:px-30 mx-auto 2xl:py-20 w-full'>
           <GridLayout>
             <GridItem className='flex items-center justify-center !px-20'>
               <BetaSignup />
