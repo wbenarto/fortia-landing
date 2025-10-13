@@ -107,8 +107,8 @@ export default function BetaSignup() {
 
       <div className='flex items-center justify-center'>
         <Image
-          src='/images/appstore.jpeg'
-          alt='coming to app store soon'
+          src='/images/availableappstore.svg'
+          alt='download on the app store'
           className='py-8 w-[160px] md:w-[250px]'
           width={130}
           height={200}

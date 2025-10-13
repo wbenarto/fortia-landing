@@ -56,8 +56,8 @@ const About = () => {
         </div>
         <div className='flex flex-col items-center justify-center py-20 pb-10'>
           <Image
-            src='/images/appstore.jpeg'
-            alt='coming to app store soon'
+            src='/images/availableappstore.svg'
+            alt='download on the app store'
             className='py-8 w-[160px] md:w-[250px]'
             width={130}
             height={300}
